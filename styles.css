@@ -23,6 +23,8 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: black;
+   
 }
 
 body {
@@ -221,20 +223,20 @@ nav ul li a:hover::after {
 }
 
 .hero-content h1 span {
-    color: var(--primary-color);
+    color: var(--black-color);
 }
 
 .hero-content h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: var(--gray-color);
+    color: var(--black-color);
     font-weight: 400;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    color: var(--gray-color);
+    color: var(--black-color);
 }
 
 .hero-buttons {
@@ -286,7 +288,7 @@ nav ul li a:hover::after {
 
 .about-text p {
     margin-bottom: 20px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.8;
 }
 
@@ -298,7 +300,7 @@ nav ul li a:hover::after {
 }
 
 .about-details div h3 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: var(--secondary-color);
     margin-bottom: 5px;
 }
@@ -342,6 +344,7 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+
 }
 
 .skill-info span:first-child {
@@ -353,7 +356,9 @@ nav ul li a:hover::after {
     background-color: #f1f1f1;
     border-radius: 5px;
     overflow: hidden;
+    border: 2px solid black;
 }
+
 
 .skill-level {
     height: 100%;
@@ -362,16 +367,24 @@ nav ul li a:hover::after {
     transition: width 1.5s ease;
 }
 
-.html-css {
-    width: 95%;
+.html {
+    width: 97%;
 }
 
-.javascript {
+.css{
     width: 90%;
 }
 
+.JavaScript{
+    width: 80%;
+}
+
 .react {
-    width: 85%;
+    width: 50%;
+}
+
+.tailwind{
+    width: 50%;
 }
 
 .vue {
