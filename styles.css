@@ -356,7 +356,6 @@ nav ul li a:hover::after {
     background-color: #f1f1f1;
     border-radius: 5px;
     overflow: hidden;
-    border: 2px solid black;
 }
 
 
